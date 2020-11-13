@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Инструкция по использованию программы</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(65, 65, 65)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="main_label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>341</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 17px;color: white</string>
+    </property>
+    <property name="text">
+     <string>Инструкция по использованию программы</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>501</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="plainText">
+     <string>ИСПОЛЬЗОВАНИЕ КНОПОК И ПРОЧИХ ОБЪЕКТОВ:
+- Кнопка &quot;Выбрать изображение&quot; нужна для открытия проводника и выбора изображения перед началом  работы с фильтрами. Кнопка &quot;Открыть конвертер&quot; нужна для открытия, встроенной в программу, конвертера изображений. &quot;BLUR&quot;, &quot;CONTOUR&quot;, &quot;EDGE ENHANCE&quot; и д.р. из списка -  кнопки требуемые для обработки изображения фильтрами. &quot;Применить уровень QUANT&quot; и &quot;Применить уровень размытия&quot; - кнопки особых филтров, где уровень применения фильтров выбирает сам пользователь с помощью ползунков (слайдеров). Кнопка &quot;Сохранить изображение&quot; требуется для сохранения изображения после работы с каким-либо фильтром, изображение найти можно открыв папку с помощью кнопки &quot;Открыть папку с изображениями&quot;. Первое поле с тектом выводит текущий статус программы, то есть какой фильтр вы предосматриваете, что нужно сделать, почему не сработал фильтр и тому подобное. Второе (самое нижнее) поле с текстом указывает фильтр который вы использовали последним. Кнопки &quot;Доп.инфо&quot; и &quot;Инструкция&quot; открывает окна с доп.информацией о приложении и инструкцией использования.
+
+ПОРЯДОК ДЕЙСТВИЙ:
+1) Выбрать изображение при помощи кнопки &quot;Выбрать изображение&quot;
+2) Использовать любой фильтр или особый фильтр предворительно выбрав уровень применения его ползунком.
+3) Сохранить изображение при помощи кнопки &quot;Сохранить изображение&quot;.
+
+Порядок действия конвертера аналогичен, только без пункта №3</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

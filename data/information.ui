@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Дополнительная информация о приложении</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(65, 65, 65)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_info">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>361</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 17px;color: white</string>
+    </property>
+    <property name="text">
+     <string>Дополнительная информация о приложении</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="text_info">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>451</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white</string>
+    </property>
+    <property name="plainText">
+     <string>Название - FilPic
+Текущая версия программы: V1.2-BETA
+Разработчик: Матвей Воронцов
+
+Технологии используемые при разработке:
+- Язык программирования Python 3.8.5
+- PyQt5 для GUI
+- Pillow (PIL)
+
+Связь с разработчиком:
+- matveyka.voron@yandex.ru
+- https://vk.com/kipelov_aria</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

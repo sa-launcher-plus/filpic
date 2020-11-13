@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>482</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FilPic - Конвертер</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(65, 65, 65)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="more_imgs_but">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 14px;</string>
+    </property>
+    <property name="text">
+     <string>Выбрать изображения</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>461</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="png_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>.PNG</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="jpg_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>.JPG</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="bmp_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>.BMP</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="gif_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>.GIF</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pdf_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>.PDF</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="webp_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>.WebP</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 14px; color: white</string>
+    </property>
+    <property name="text">
+     <string>Нельзя сжимать изображение до уровня, выше его собственного</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>461</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="1">
+      <widget class="QPushButton" name="fullhd_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>Сжать до Full HD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="ultrahd_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>Сжать до Ultra HD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="hd_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>Сжать до HD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="p480_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>Сжать до 480p</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="p360_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>Сжать до 360p</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="p240_but">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 13px;</string>
+       </property>
+       <property name="text">
+        <string>Сжать до 240p</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>330</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(125, 125, 125);
+color: white;
+font-size: 11px;</string>
+    </property>
+    <property name="text">
+     <string>Открыть папку с изображениями</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
